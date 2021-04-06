@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/profile.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>PROFILE PAGE</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./../assets/images/bida_logo-removebg-preview.png" alt="">
+            <div class="nav-items" id="nav-bar">
+                    <a href="./../index.html"><i class="fas fa-home"></i>HOME</a>
+                    <a href="./form.html"><i class="fas fa-user-plus"></i>FORM</a>
+                    <a href="./profile.html" class="index--profile"><i class="fas fa-user-circle"></i>PROFILE</a>
+            </div>
+            <li onclick="navbarToggle()" class="menu-toggler fas fa-bars"></li>
+        </nav>
+    </header>
+    <section id="profile-container">
+        <h4 class="profile-heading">User Profile</h4>
+        <hr class="heading-line"/>
+        <div id="user-details">
+            <p class="info-label">Fullname:</p> <span class="info-value" id="fullName">Ayodele Samuel Adebayo</span>
+            <p class="info-label">Email:</p> <span class="info-value" id="email">unclebigbay@gmail.com</span>
+            <p class="info-label">Address:</p> <span class="info-value" id="address">Big gate Bida, Niger State</span>
+            <p class="info-label">Date of Birth:</p> <span class="info-value" id="dob">12/10/2020</span>
+        </div>
+        <div id="update-btn">
+            <a href="./updateProfile.html">
+                <button class="btn">update profile</button>
+            </a>
+            <button class="btn btn-danger" onclick="logOut()">logout</button>
+        </div>
+    </section>
+
+
+    <footer>
+        <!-- <marquee behavior="" direction="">@codemate</marquee> -->
+        <h3>@codemate</h3>
+    </footer>
+
+    <script src="../assets/js/profile.js"></script>
+    <script src="../assets/js/navbar.js"></script>
+</body>
+</html>

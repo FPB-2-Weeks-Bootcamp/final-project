@@ -1,0 +1,98 @@
+body{
+    background-color: dodgerblue;
+}
+
+.form-container{
+    background-color: dodgerblue;
+    height: 100%;
+}
+.form-container h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 8px 0px 15px 0px;
+}
+
+.form-container #error_text{
+    font-size: 16px;
+}
+
+.firstname{
+    margin-top: 10px;
+}
+
+.btn-view-profile{
+    text-decoration: none;
+    font-size: 16px !important;
+}
+
+
+.firstname,
+.lastname,
+.email,
+.address,
+.date{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+
+input{
+    padding-left: 4px;
+    width: 100%;
+    height: 40px;
+}
+
+
+.form-btn-container button{
+    padding: 10px 20px; 
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+@media(min-width: 900px){
+    #form-container form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .form-container h4{
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    label{
+        font-size: 20px;
+    }
+
+    input{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width: 900px){
+    .nav-items{
+        display: none;
+    }
+}

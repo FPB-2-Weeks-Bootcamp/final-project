@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="../assets/css/updateprofile.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./../assets/images/bida_logo-removebg-preview.png" alt="">
+            <div class="nav-items" id="nav-bar">
+                    <a href="./../index.html"><i class="fas fa-home"></i>HOME</a>
+                    <a href="./form.html"><i class="fas fa-user-plus"></i>FORM</a>
+                    <a href="./profile.html" class="index--profile"><i class="fas fa-user-circle"></i>PROFILE</a>
+            </div>
+            <li onclick="navbarToggle()" class="menu-toggler fas fa-bars"></li>
+        </nav>
+    </header>
+
+    <main class="custom-container form-container" id="update-profile">
+        <h4>Update profile</h4>
+        <div class="container" id="form-container">
+            <form>
+                <span id="error_message"></span>
+                <!--firstname input-->
+                <div class="firstname">
+                    <label for="firstname">firstname: </label>
+                    <input id="firstName" type="text" placeholder="Enter your firstname">
+                </div>
+                <!-- last name -->
+                <div class="lastname">
+                    <label for="lastname">lastname: </label>
+                    <input id="lastName" type="text" placeholder="Enter your lastname">
+                </div>
+                <!-- email -->
+                <div class="email">
+                    <label for="email">email: </label>
+                    <input id="email" type="email" placeholder="e.g codemate@gmail.com">
+                </div>
+                <!-- address -->
+                <div class="address">
+                    <label for="address">address: </label>
+                    <input id="address" type="address" placeholder=" Home address">
+                </div>
+                    <div class="date">
+                        <label for="date">dob : </label>
+                        <input id="date" type="date" placeholder="date">
+                    </div>
+                <div class="form-btn-container">
+                    <button class="btn btn-white" type="button" onclick="handleProfileUpdate(event)"> Update Profile </button>
+                </div>
+            </form>
+        </div>
+    </main>
+   <script src="../assets/js/updateProfile.js"></script> 
+   <script src="../assets/js/navbar.js"></script> 
+</body>
+</html>

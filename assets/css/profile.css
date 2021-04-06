@@ -1,0 +1,39 @@
+#profile-container{
+    margin: 10px 0px;
+    padding: 50px 43px 25px 43px;
+    background-color: gainsboro;
+}
+#profile-container .profile-heading{
+    font-size: 30px;
+    color: dodgerblue;
+    margin: 4px 0px;
+}
+#profile-container .heading-line{
+    width: 260px;
+    height: 5px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+#profile-container #user-details{
+    margin: 30px 0px;
+}
+#user-details .info-label{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 20px 0px;
+    color: #333;
+}
+#user-details .info-value{
+    font-size: 19px;
+    color: rgb(121, 111, 111);
+}
+
+
+
+@media(max-width: 900px){
+    .nav-items{
+        display: none;
+    }
+}
