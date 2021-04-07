@@ -4,11 +4,11 @@
 This is the repository for the complete project done during the 2 weeks bootcamp organized by the #codemates at the Federal Polytechnic Bida 2021
 
 
-### Ayodele Samuel Adebayo (unclebay)  
+#### Ayodele Samuel Adebayo (unclebay)  
 
-### Soyebi Grace  
+#### Soyebi Grace  
 
-### Adeyemo Buhari  
+#### Adeyemo Buhari  
 
 
 # To Download the copy of this project  
