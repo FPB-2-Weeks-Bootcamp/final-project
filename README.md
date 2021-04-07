@@ -11,7 +11,9 @@ This is the repository for the complete project done during the 2 weeks bootcamp
 #### Adeyemo Buhari  
 
 
-# To Download the copy of this project  
+# To Download the copy of this project    
+
+Ensure you are using a PC or request for desktop view in chrome  
 
 1. click on the green button label code  
 2. Select Download Zip
