@@ -118,6 +118,10 @@ footer{
     
 }
 
+/*  sweet alert text */
+.swal-text{
+    color: dodgerblue;
+}
 
 
 /*  WARNING STYLES */
